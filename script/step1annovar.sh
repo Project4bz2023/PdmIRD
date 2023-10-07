@@ -1,0 +1,4 @@
+perl /path/to/annovar/table_annovar.pl -buildver hg38  inputfile  /hwfssz5/ST_HEALTH/P18Z10200N0124/liupanhong/Install/annovar/humandb --thread 4 --outfile annovar.out -protocol refGene,1000g2015aug_all,1000g2015aug_eas,1000g2015aug_afr,1000g2015aug_amr,1000g2015aug_eur,1000g2015aug_sas,gnomad211_exome,gnomad211_genome,exac03nonpsych,exac03nontcga,exac03,esp6500siv2_all,esp6500siv2_aa,esp6500siv2_ea,ljb26_all,dbnsfp31a_interpro,dbscsnv11,avsnp150,dbnsfp42a,ChinaMAP,MutFormer -operation g,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f -nastring .  -remove --onetranscript -vcfinput
+
+### ChinaMAP frequency can be downloaded from http://www.mbiobank.com/login/?next=/download/
+### MutFormer score can be downloaded from http://www.openbioinformatics.org/mutformer/hg19_MutFormer.zip
