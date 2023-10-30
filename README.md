@@ -1,7 +1,7 @@
 # PdmIRD version 1.0 #
 ## About
 
-PdmIRD is a tool to predict IRD (Inherited retinal diseases) mutations. It is applicable to missense mutations in IRD-related genes. We also provide a website (https://zbshiny.shinyapps.io/IRDmis/) for online queries, which integrates the information from the Genome Aggregation Database (gnomAD), the Exome Aggregation Consortium (ExAC), 1000 genomes project (1KGP), the China Metabolic Analytics Project (ChinaMAP) and the Westlake BioBank for Chinese (WBBC).
+PdmIRD is a tool to predict IRD (Inherited retinal diseases) mutations. It is applicable to missense mutations in IRD-related genes. We also provide a website (https://zbshiny.shinyapps.io/IRDmis/) for online queries, which integrates the information from the Genome Aggregation Database (gnomAD), the Exome Aggregation Consortium (ExAC), the 1000 genomes project (1KGP), the China Metabolic Analytics Project (ChinaMAP) and the Westlake BioBank for Chinese (WBBC).
 
 ## Dependence
 ### Tested environment:
