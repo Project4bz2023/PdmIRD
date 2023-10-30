@@ -15,6 +15,11 @@ caret_6.0-94
 ggfortify_0.4.16   
 pROC_1.18.4   
 ggplot2_3.4.3   
-
 tidyverse_2.0.0   
 Hmisc_5.1-1         
+## How to use
+First, using the ANNOVAR (https://annovar.openbioinformatics.org/en/latest/user-guide/download/) to annotate the mutations, the 'step1annovar.sh' in the script folder is an example.
+Then, 'step2run.sh' uses the 'annovar.matchOtheranno.pl' to annotate other information. Part of the source data is stored in the data folder, others you can download from the office sites.
+Finally, you can obtain the prediction model by executing the 'preprocess_train_test.R', and use it to get your prediction result. 
+
+Of course, you also can use the pre-calculated score file, "IRDmis.predict.gz".
